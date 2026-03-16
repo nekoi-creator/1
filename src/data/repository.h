@@ -2,8 +2,9 @@
 #define REPOSITORY_H
 
 #include "../domain/entity.h"
-#include <pqxx/pqxx> // 必须安装 libpqxx 库
+#include <pqxx/pqxx> 
 #include <vector>
+#include <iostream>
 
 namespace Data {
     class CourseRepository {
