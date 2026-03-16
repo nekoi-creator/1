@@ -9,7 +9,7 @@
 namespace Data {
     class CourseRepository {
     private:
-        std::string conn_str = "host=localhost dbname=your_db user=postgres password=your_pass";
+        std::string conn_str = "host=localhost dbname=your_db user=gaohaoran password=password";
     public:
         // 获取所有课程
         std::vector<Domain::Course> findAll() {
